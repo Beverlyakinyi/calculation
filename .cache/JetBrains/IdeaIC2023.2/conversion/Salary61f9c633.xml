@@ -1,0 +1,14 @@
+<conversion>
+  <applied-converters>
+    <converter id="kotlin-non-jvm-source-roots" />
+    <converter id="rules-persistent-state-converter" />
+  </applied-converters>
+  <project-files>
+    <f p="./.idea/libraries/KotlinJavaRuntime.xml" t="1708943416" />
+    <f p="./.idea/workspace.xml" t="1708943426" />
+    <f p="./.idea/misc.xml" t="1708943416" />
+    <f p="./.idea/kotlinc.xml" t="1708943416" />
+    <f p="./.idea/modules.xml" t="1708943416" />
+    <f p="./Salary.iml" t="1708943416" />
+  </project-files>
+</conversion>

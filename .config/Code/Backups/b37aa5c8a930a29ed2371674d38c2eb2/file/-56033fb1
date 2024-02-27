@@ -1,0 +1,80 @@
+file:///home/student/Assignment/table.html {"mtime":1708793040661,"ctime":1708790747221,"size":1788,"etag":"3c1md0r3o1ql","orphaned":false,"typeId":""}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+
+    <link rel="stylesheet" href="table.css">
+</head>
+<body> 
+    <table id="table">
+        <p>do you want to leave?<a href="index.html">Sign up</a></a></p>
+           <tr>
+            <th> First Name</th>
+            <th>Last name</th>
+            <th>Email Address</th>
+           </tr> 
+        
+        <tr>
+            <td>Duke</td>
+            <td>Ogoye</td>
+            <td>dukeogoye@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Whitney</td>
+            <td>Johnson</td>
+            <td>whitjohnso@Gmail.com</td>
+        </tr>
+        <tr>
+            <td>Clive</td>
+            <td>Onyango</td>
+            <td>cliveonyango@gmail.com</td>
+        </tr>
+        <tr>
+            <td>frank</td>
+            <td>johnson</td>
+            <td>frankjohnson@gmail.com</td>
+        </tr>
+        <tr>
+            <td> lewis </td>
+            <td>okaka</td>
+            <td>lewisokaka@gmail.com</td>
+        </tr>
+        <tr>
+            <td>paul</td>
+            <td>saul</td>
+            <td>paulsaul@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Janet </td>
+            <td>Mugabe</td>
+            <td>janetmugabe@gmail.com</td>
+        </tr>
+        <tr>
+            <td>lucy</td>
+            <td>smith</td>
+            <td>lucysmith@gmail.com</td>
+        </tr>
+        <tr>
+            <td>vera</td>
+            <td>samantha</td>
+            <td>verasamantha@gmail.com</td>
+        </tr>
+        <tr>
+            <td>dorothy</td>
+            <td>davieson</td>
+            <td>dorithydavieson@gmail.com</td>
+            </tr>
+
+
+        </tr>
+    </table>
+    
+</body>
+</html>
+
+    
+
+</html>

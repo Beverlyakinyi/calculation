@@ -1,0 +1,676 @@
+[2:0224/195542.922328:ERROR:bus.cc(399)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0224/195542.922385:ERROR:bus.cc(399)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0224/195542.975686:WARNING:key_storage_linux.cc(183)] OSCrypt tried Libsecret but couldn't initialise.
+[2:0224/195543.027946:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[2:0224/195543.062493:ERROR:bus.cc(399)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0224/195543.062555:ERROR:bus.cc(399)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0224/195543.062614:ERROR:bus.cc(399)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[2:0224/195543.070924:WARNING:power_observer_linux.cc(176)] Failed to connect to PrepareForShutdown
+[2:0224/195543.070968:WARNING:power_observer_linux.cc(176)] Failed to connect to PrepareForSleep
+[2:0224/195543.070979:WARNING:power_observer_linux.cc(65)] org.freedesktop.login1 not available
+[2:0224/205844.057151:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 2861
+
+
+[2:0224/205844.075815:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 3010
+
+
+[2:0224/222124.484168:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 4159
+
+
+[2:0224/222124.502160:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 4307
+
+
+[2:0225/080251.582320:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 5415
+
+
+[2:0225/080251.600864:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 5564
+
+
+[2:0225/094247.337283:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 6623
+
+
+[2:0225/094247.354836:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 6771
+
+
+[2:0225/111552.358567:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 7911
+
+
+[2:0225/111552.388840:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 8061
+
+
+[2:0225/112911.028459:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 9101
+
+
+[2:0225/112911.045051:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 9250
+
+
+[2:0225/132943.782778:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 10392
+
+
+[2:0225/132943.804459:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 10541
+
+
+[2:0225/140259.708273:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 11615
+
+
+[2:0225/140259.727859:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 11764
+
+
+[2:0225/145252.497127:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 12827
+
+
+[2:0225/145252.518717:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 12977
+
+
+[2:0225/190835.524150:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 14119
+
+
+[2:0225/190835.544674:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 14268
+
+
+[2:0225/204836.641103:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 15401
+
+
+[2:0225/204836.658899:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 15550
+
+
+[2:0225/220257.870915:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 16738
+
+
+[2:0225/220257.892265:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 16895
+
+
+[2:0226/064028.962194:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 18033
+
+
+[2:0226/064028.984096:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 18181
+
+
+[2:0226/073750.064651:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 19475
+
+
+[2:0226/073750.084987:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 19627
+
+
+[2:0226/090111.433005:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 21333
+
+
+[2:0226/090111.453706:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 21492
+
+
+[2:0226/090903.386976:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 22678
+
+
+[2:0226/090903.408631:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 22841
+
+
+[2:0226/091709.611529:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 23883
+
+
+[2:0226/091709.642217:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 24049
+
+
+[2:0226/094505.262261:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 25236
+
+
+[2:0226/094505.279725:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 25384
+
+
+[2:0226/100509.279479:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 26438
+
+
+[2:0226/100509.301851:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 26587
+
+
+[2:0226/103255.168086:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 27649
+
+
+[2:0226/103255.189837:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 27797
+
+
+[2:0226/111818.193507:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 28972
+
+
+[2:0226/111818.215831:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 29124
+
+
+[2:0226/112959.387521:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 30194
+
+
+[2:0226/112959.405791:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 30347
+
+
+[2:0226/115309.096821:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 31458
+
+
+[2:0226/115309.117055:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 31608
+
+
+[2:0226/123649.932827:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 32791
+
+
+[2:0226/123649.950170:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 32939
+
+
+[2:0226/124628.045861:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 33972
+
+
+[2:0226/124628.064176:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 34120
+
+
+[2:0226/130815.297643:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 35215
+
+
+[2:0226/130815.314890:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 35365
+
+
+[2:0226/162907.121033:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 37326
+
+
+[2:0226/162907.141361:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 37479
+
+
+[2:0226/210820.717688:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 38779
+
+
+[2:0226/210820.739890:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 38932
+
+
+[2:0227/054559.787912:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 40549
+
+
+[2:0227/054559.810670:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 40703
+
+
+[2:0227/060754.648120:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 41988
+
+
+[2:0227/060754.665980:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 42140
+
+
+[2:0227/063250.305142:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 43338
+
+
+[2:0227/063250.330372:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 43498
+
+
+[2:0227/064148.893431:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 44558
+
+
+[2:0227/064148.918736:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 44710
+
+
+[2:0227/082645.497279:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 46204
+
+
+[2:0227/082645.517228:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 46356
+
+
+[2:0227/084546.456022:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 47683
+
+
+[2:0227/084546.480065:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 47839
+
+
+[2:0227/092612.344675:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 49159
+
+
+[2:0227/092612.362850:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 49310
+
+
+[2:0227/103220.518112:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 50397
+
+
+[2:0227/103220.536175:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 50549
+
+
+[2:0227/104921.675183:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /StatusNotifierItem
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 51629
+
+
+[2:0227/104921.697529:WARNING:exported_object.cc(247)] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.573
+path: /com/canonical/dbusmenu
+interface: org.freedesktop.DBus.Introspectable
+member: Introspect
+sender: :1.42
+serial: 51781
+
+

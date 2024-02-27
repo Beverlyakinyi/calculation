@@ -1,0 +1,2937 @@
+<html>
+  <head>
+    <title>Indexing diagnostics of 'salary'</title>
+    <style>body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 80%;
+}
+
+table.activity-table {
+   width: 100%;
+}
+  
+table.narrow-activity-table {
+   width: 80%;
+}
+
+table.two-columns td {
+  width: 50%;
+}
+
+th, td {
+  padding: 3px;
+}
+
+th {
+  background: lightgrey;
+}
+
+td {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+        
+.stats-content {
+  margin-left: 20%;
+}
+  
+.stats-activity-content {
+  margin-left: 20%;
+  margin-right: 5%;
+}
+
+.aggregate-report-content {
+  margin-left: 10%;
+} 
+ 
+.aggregate-activity-report-content {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.aggregate-header {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 0;
+}
+
+.table-with-margin{
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.navigation-bar {
+  width: 15%;
+  background-color: lightgrey;
+  position: fixed;
+  height: 100%;
+}
+
+div.navigation-bar ul {
+  list-style-type: none;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+div.navigation-bar ul li a, label {
+  display: block;
+  color: #000;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+label input {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+div.navigation-bar ul li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.minor-data {}
+
+.invisible {
+  display: none;
+}
+
+.jetbrains-logo {
+  width: 50%;
+  bottom: 5%;
+  position: absolute;
+  left: 20%;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.linkable-table-row:hover {
+  background: #f2f3ff;
+  outline: none;
+  cursor: pointer;
+}
+
+.scanning-table-row {
+  background-color: aliceblue;
+}
+
+.not-applicable-data{
+  color: darkgrey;
+}</style>
+    <script>document.addEventListener("DOMContentLoaded", () => {
+  const rows = document.getElementsByClassName("linkable-table-row")
+  for (const row of rows) {
+    const href = row.getAttribute("href")
+    row.addEventListener("click", () => {
+      window.open(href, "_blank");
+    });
+  }
+});</script>
+  </head>
+  <body>
+    <div class="aggregate-activity-report-content">
+      <h1 class="aggregate-header">salary</h1>
+      <div>All durations are wall time; total and content loading time include pauses
+        <table class="centered-text table-with-margin activity-table"><caption style="caption-side: bottom; text-align: right; font-size: 14px">Click for details</caption>
+          <thead>
+            <tr>
+              <th colspan="14">History of scannings and indexings</th>
+            </tr>
+            <tr>
+              <th colspan="7">Time</th>
+              <th colspan="5">Files</th>
+              <th rowspan="2">Scanning ID(s)</th>
+              <th rowspan="2">Scanning Type</th>
+            </tr>
+            <tr>
+              <th>Started</th>
+              <th>Started dumb mode</th>
+              <th>Finished</th>
+              <th>Total&nbsp;time</th>
+              <th>Time spent on pause</th>
+              <th>Full dumb mode time</th>
+              <th>Dumb mode time w/o pauses</th>
+              <th>Scanned</th>
+              <th>Shared indexes (w/o content loading)</th>
+              <th>Scheduled for indexing</th>
+              <th>Shared indexes (content loaded)</th>
+              <th>Total indexed (shared indexes included)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-09-25-31.126.html">
+              <td>09:25:31 27 Feb</td>
+              <td>09:25:31 27 Feb</td>
+              <td>09:25:31 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-09-25-31.108.html">
+              <td>09:25:31 27 Feb</td>
+              <td>09:25:31 27 Feb</td>
+              <td>09:25:31 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>68<br>(incl. 68 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-09-23-43.069.html">
+              <td>09:23:43 27 Feb</td>
+              <td>09:23:43 27 Feb</td>
+              <td>09:23:43 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-09-23-43.051.html">
+              <td>09:23:43 27 Feb</td>
+              <td>09:23:43 27 Feb</td>
+              <td>09:23:43 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>69<br>(incl. 69 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-09-22-56.825.html">
+              <td>09:22:56 27 Feb</td>
+              <td>09:22:56 27 Feb</td>
+              <td>09:22:56 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-09-22-56.796.html">
+              <td>09:22:56 27 Feb</td>
+              <td>09:22:56 27 Feb</td>
+              <td>09:22:56 27 Feb</td>
+              <td>17 ms</td>
+              <td>0</td>
+              <td>17 ms</td>
+              <td>17 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>1472<br>(incl. 1472 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-08-29-33.572.html">
+              <td>08:29:33 27 Feb</td>
+              <td>08:29:33 27 Feb</td>
+              <td>08:29:33 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-08-29-33.551.html">
+              <td>08:29:33 27 Feb</td>
+              <td>08:29:33 27 Feb</td>
+              <td>08:29:33 27 Feb</td>
+              <td>45 ms</td>
+              <td>0</td>
+              <td>45 ms</td>
+              <td>45 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>68<br>(incl. 68 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-08-28-01.877.html">
+              <td>08:28:01 27 Feb</td>
+              <td>08:28:01 27 Feb</td>
+              <td>08:28:01 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-08-28-01.862.html">
+              <td>08:28:01 27 Feb</td>
+              <td>08:28:01 27 Feb</td>
+              <td>08:28:01 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>23<br>(incl. 23 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-08-27-53.719.html">
+              <td>08:27:53 27 Feb</td>
+              <td>08:27:53 27 Feb</td>
+              <td>08:27:53 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-08-27-53.696.html">
+              <td>08:27:53 27 Feb</td>
+              <td>08:27:53 27 Feb</td>
+              <td>08:27:53 27 Feb</td>
+              <td>27 ms</td>
+              <td>0</td>
+              <td>27 ms</td>
+              <td>27 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>1183<br>(incl. 1183 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-08-05-53.610.html">
+              <td>08:05:53 27 Feb</td>
+              <td>08:05:53 27 Feb</td>
+              <td>08:05:53 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>31<br>(incl. 31 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-08-05-32.193.html">
+              <td>08:05:32 27 Feb</td>
+              <td>08:05:32 27 Feb</td>
+              <td>08:05:32 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-08-05-32.169.html">
+              <td>08:05:32 27 Feb</td>
+              <td>08:05:32 27 Feb</td>
+              <td>08:05:32 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>36<br>(incl. 36 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-08-05-06.642.html">
+              <td>08:05:06 27 Feb</td>
+              <td>08:05:06 27 Feb</td>
+              <td>08:05:06 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-08-05-06.624.html">
+              <td>08:05:06 27 Feb</td>
+              <td>08:05:06 27 Feb</td>
+              <td>08:05:06 27 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>195<br>(incl. 195 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-08-02-15.903.html">
+              <td>08:02:15 27 Feb</td>
+              <td>08:02:15 27 Feb</td>
+              <td>08:02:15 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-08-02-15.887.html">
+              <td>08:02:15 27 Feb</td>
+              <td>08:02:15 27 Feb</td>
+              <td>08:02:15 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>40<br>(incl. 40 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-08-01-25.576.html">
+              <td>08:01:25 27 Feb</td>
+              <td>08:01:25 27 Feb</td>
+              <td>08:01:25 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-08-01-25.556.html">
+              <td>08:01:25 27 Feb</td>
+              <td>08:01:25 27 Feb</td>
+              <td>08:01:25 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>20<br>(incl. 20 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-08-01-22.674.html">
+              <td>08:01:22 27 Feb</td>
+              <td>08:01:22 27 Feb</td>
+              <td>08:01:22 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-08-01-22.657.html">
+              <td>08:01:22 27 Feb</td>
+              <td>08:01:22 27 Feb</td>
+              <td>08:01:22 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>31<br>(incl. 31 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-08-01-09.874.html">
+              <td>08:01:09 27 Feb</td>
+              <td>08:01:09 27 Feb</td>
+              <td>08:01:09 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-08-01-09.856.html">
+              <td>08:01:09 27 Feb</td>
+              <td>08:01:09 27 Feb</td>
+              <td>08:01:09 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>47<br>(incl. 47 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-08-00-27.347.html">
+              <td>08:00:27 27 Feb</td>
+              <td>08:00:27 27 Feb</td>
+              <td>08:00:27 27 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>69<br>(incl. 69 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-58-28.662.html">
+              <td>07:58:28 27 Feb</td>
+              <td>07:58:28 27 Feb</td>
+              <td>07:58:28 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-58-28.645.html">
+              <td>07:58:28 27 Feb</td>
+              <td>07:58:28 27 Feb</td>
+              <td>07:58:28 27 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>32<br>(incl. 32 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-58-16.875.html">
+              <td>07:58:16 27 Feb</td>
+              <td>07:58:16 27 Feb</td>
+              <td>07:58:16 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-58-16.859.html">
+              <td>07:58:16 27 Feb</td>
+              <td>07:58:16 27 Feb</td>
+              <td>07:58:16 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>36<br>(incl. 36 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-58-03.742.html">
+              <td>07:58:03 27 Feb</td>
+              <td>07:58:03 27 Feb</td>
+              <td>07:58:03 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-58-03.728.html">
+              <td>07:58:03 27 Feb</td>
+              <td>07:58:03 27 Feb</td>
+              <td>07:58:03 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>135<br>(incl. 135 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-57-27.723.html">
+              <td>07:57:27 27 Feb</td>
+              <td>07:57:27 27 Feb</td>
+              <td>07:57:27 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-57-27.705.html">
+              <td>07:57:27 27 Feb</td>
+              <td>07:57:27 27 Feb</td>
+              <td>07:57:27 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>43<br>(incl. 43 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-57-10.822.html">
+              <td>07:57:10 27 Feb</td>
+              <td>07:57:10 27 Feb</td>
+              <td>07:57:10 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-57-10.804.html">
+              <td>07:57:10 27 Feb</td>
+              <td>07:57:10 27 Feb</td>
+              <td>07:57:10 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>44<br>(incl. 44 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-56-59.163.html">
+              <td>07:56:59 27 Feb</td>
+              <td>07:56:59 27 Feb</td>
+              <td>07:56:59 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-56-59.142.html">
+              <td>07:56:59 27 Feb</td>
+              <td>07:56:59 27 Feb</td>
+              <td>07:56:59 27 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>36<br>(incl. 36 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-56-12.256.html">
+              <td>07:56:12 27 Feb</td>
+              <td>07:56:12 27 Feb</td>
+              <td>07:56:12 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>23<br>(incl. 23 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-56-06.397.html">
+              <td>07:56:06 27 Feb</td>
+              <td>07:56:06 27 Feb</td>
+              <td>07:56:06 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-56-06.384.html">
+              <td>07:56:06 27 Feb</td>
+              <td>07:56:06 27 Feb</td>
+              <td>07:56:06 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>26<br>(incl. 26 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-55-35.765.html">
+              <td>07:55:35 27 Feb</td>
+              <td>07:55:35 27 Feb</td>
+              <td>07:55:35 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-55-35.746.html">
+              <td>07:55:35 27 Feb</td>
+              <td>07:55:35 27 Feb</td>
+              <td>07:55:35 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>26<br>(incl. 26 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-55-23.596.html">
+              <td>07:55:23 27 Feb</td>
+              <td>07:55:23 27 Feb</td>
+              <td>07:55:23 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-55-23.581.html">
+              <td>07:55:23 27 Feb</td>
+              <td>07:55:23 27 Feb</td>
+              <td>07:55:23 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>32<br>(incl. 32 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-55-08.814.html">
+              <td>07:55:08 27 Feb</td>
+              <td>07:55:08 27 Feb</td>
+              <td>07:55:08 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-55-08.796.html">
+              <td>07:55:08 27 Feb</td>
+              <td>07:55:08 27 Feb</td>
+              <td>07:55:08 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>23<br>(incl. 23 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-54-53.813.html">
+              <td>07:54:53 27 Feb</td>
+              <td>07:54:53 27 Feb</td>
+              <td>07:54:53 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-54-53.799.html">
+              <td>07:54:53 27 Feb</td>
+              <td>07:54:53 27 Feb</td>
+              <td>07:54:53 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>50<br>(incl. 50 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-54-30.621.html">
+              <td>07:54:30 27 Feb</td>
+              <td>07:54:30 27 Feb</td>
+              <td>07:54:30 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-54-30.607.html">
+              <td>07:54:30 27 Feb</td>
+              <td>07:54:30 27 Feb</td>
+              <td>07:54:30 27 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>189<br>(incl. 189 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-53-51.022.html">
+              <td>07:53:51 27 Feb</td>
+              <td>07:53:51 27 Feb</td>
+              <td>07:53:51 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-53-51.002.html">
+              <td>07:53:51 27 Feb</td>
+              <td>07:53:51 27 Feb</td>
+              <td>07:53:51 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>39<br>(incl. 39 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-53-18.122.html">
+              <td>07:53:18 27 Feb</td>
+              <td>07:53:18 27 Feb</td>
+              <td>07:53:18 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-53-18.070.html">
+              <td>07:53:18 27 Feb</td>
+              <td>07:53:18 27 Feb</td>
+              <td>07:53:18 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>45<br>(incl. 45 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-52-42.509.html">
+              <td>07:52:42 27 Feb</td>
+              <td>07:52:42 27 Feb</td>
+              <td>07:52:42 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-52-42.492.html">
+              <td>07:52:42 27 Feb</td>
+              <td>07:52:42 27 Feb</td>
+              <td>07:52:42 27 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>22<br>(incl. 22 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-52-26.349.html">
+              <td>07:52:26 27 Feb</td>
+              <td>07:52:26 27 Feb</td>
+              <td>07:52:26 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-52-26.334.html">
+              <td>07:52:26 27 Feb</td>
+              <td>07:52:26 27 Feb</td>
+              <td>07:52:26 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>32<br>(incl. 32 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-52-11.966.html">
+              <td>07:52:11 27 Feb</td>
+              <td>07:52:11 27 Feb</td>
+              <td>07:52:11 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-52-11.952.html">
+              <td>07:52:11 27 Feb</td>
+              <td>07:52:11 27 Feb</td>
+              <td>07:52:11 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>55<br>(incl. 55 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-51-37.757.html">
+              <td>07:51:37 27 Feb</td>
+              <td>07:51:37 27 Feb</td>
+              <td>07:51:37 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-51-37.746.html">
+              <td>07:51:37 27 Feb</td>
+              <td>07:51:37 27 Feb</td>
+              <td>07:51:37 27 Feb</td>
+              <td>3 ms</td>
+              <td>0</td>
+              <td>3 ms</td>
+              <td>3 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>460<br>(incl. 460 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-34-21.592.html">
+              <td>07:34:21 27 Feb</td>
+              <td>07:34:21 27 Feb</td>
+              <td>07:34:21 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-34-21.567.html">
+              <td>07:34:21 27 Feb</td>
+              <td>07:34:21 27 Feb</td>
+              <td>07:34:21 27 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>85<br>(incl. 85 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-32-10.627.html">
+              <td>07:32:10 27 Feb</td>
+              <td>07:32:10 27 Feb</td>
+              <td>07:32:10 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>24<br>(incl. 24 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-32-02.815.html">
+              <td>07:32:02 27 Feb</td>
+              <td>07:32:02 27 Feb</td>
+              <td>07:32:02 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-32-02.802.html">
+              <td>07:32:02 27 Feb</td>
+              <td>07:32:02 27 Feb</td>
+              <td>07:32:02 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>47<br>(incl. 47 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-31-39.902.html">
+              <td>07:31:39 27 Feb</td>
+              <td>07:31:39 27 Feb</td>
+              <td>07:31:39 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-31-39.889.html">
+              <td>07:31:39 27 Feb</td>
+              <td>07:31:39 27 Feb</td>
+              <td>07:31:39 27 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>52<br>(incl. 52 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-30-53.966.html">
+              <td>07:30:53 27 Feb</td>
+              <td>07:30:53 27 Feb</td>
+              <td>07:30:53 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-30-53.952.html">
+              <td>07:30:53 27 Feb</td>
+              <td>07:30:53 27 Feb</td>
+              <td>07:30:53 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>75<br>(incl. 75 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-29-28.571.html">
+              <td>07:29:28 27 Feb</td>
+              <td>07:29:28 27 Feb</td>
+              <td>07:29:28 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-29-28.559.html">
+              <td>07:29:28 27 Feb</td>
+              <td>07:29:28 27 Feb</td>
+              <td>07:29:28 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>53<br>(incl. 53 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-28-41.113.html">
+              <td>07:28:41 27 Feb</td>
+              <td>07:28:41 27 Feb</td>
+              <td>07:28:41 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-28-41.097.html">
+              <td>07:28:41 27 Feb</td>
+              <td>07:28:41 27 Feb</td>
+              <td>07:28:41 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>81<br>(incl. 81 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-26-47.579.html">
+              <td>07:26:47 27 Feb</td>
+              <td>07:26:47 27 Feb</td>
+              <td>07:26:47 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-26-47.567.html">
+              <td>07:26:47 27 Feb</td>
+              <td>07:26:47 27 Feb</td>
+              <td>07:26:47 27 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>138<br>(incl. 138 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-22-23.685.html">
+              <td>07:22:23 27 Feb</td>
+              <td>07:22:23 27 Feb</td>
+              <td>07:22:23 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-22-23.673.html">
+              <td>07:22:23 27 Feb</td>
+              <td>07:22:23 27 Feb</td>
+              <td>07:22:23 27 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>137<br>(incl. 137 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-12-59.888.html">
+              <td>07:12:59 27 Feb</td>
+              <td>07:12:59 27 Feb</td>
+              <td>07:12:59 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-12-59.878.html">
+              <td>07:12:59 27 Feb</td>
+              <td>07:12:59 27 Feb</td>
+              <td>07:12:59 27 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>132<br>(incl. 132 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-04-11.841.html">
+              <td>07:04:11 27 Feb</td>
+              <td>07:04:11 27 Feb</td>
+              <td>07:04:11 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-07-04-11.830.html">
+              <td>07:04:11 27 Feb</td>
+              <td>07:04:11 27 Feb</td>
+              <td>07:04:11 27 Feb</td>
+              <td>3 ms</td>
+              <td>0</td>
+              <td>3 ms</td>
+              <td>3 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>332<br>(incl. 332 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-06-49-33.541.html">
+              <td>06:49:33 27 Feb</td>
+              <td>06:49:33 27 Feb</td>
+              <td>06:49:33 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-06-49-33.531.html">
+              <td>06:49:33 27 Feb</td>
+              <td>06:49:33 27 Feb</td>
+              <td>06:49:33 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>66<br>(incl. 66 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-06-48-13.173.html">
+              <td>06:48:13 27 Feb</td>
+              <td>06:48:13 27 Feb</td>
+              <td>06:48:13 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-06-48-13.163.html">
+              <td>06:48:13 27 Feb</td>
+              <td>06:48:13 27 Feb</td>
+              <td>06:48:13 27 Feb</td>
+              <td>3 ms</td>
+              <td>0</td>
+              <td>3 ms</td>
+              <td>3 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>305<br>(incl. 305 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-06-33-36.494.html">
+              <td>06:33:36 27 Feb</td>
+              <td>06:33:36 27 Feb</td>
+              <td>06:33:36 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-06-33-36.482.html">
+              <td>06:33:36 27 Feb</td>
+              <td>06:33:36 27 Feb</td>
+              <td>06:33:36 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>60<br>(incl. 60 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-06-32-51.197.html">
+              <td>06:32:51 27 Feb</td>
+              <td>06:32:51 27 Feb</td>
+              <td>06:32:51 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-06-32-51.187.html">
+              <td>06:32:51 27 Feb</td>
+              <td>06:32:51 27 Feb</td>
+              <td>06:32:51 27 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>78<br>(incl. 78 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-06-17-50.195.html">
+              <td>06:17:50 27 Feb</td>
+              <td>06:17:50 27 Feb</td>
+              <td>06:17:50 27 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>38<br>(incl. 38 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-06-17-01.902.html">
+              <td>06:17:01 27 Feb</td>
+              <td>06:17:01 27 Feb</td>
+              <td>06:17:01 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-06-17-01.892.html">
+              <td>06:17:01 27 Feb</td>
+              <td>06:17:01 27 Feb</td>
+              <td>06:17:01 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>62<br>(incl. 62 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-06-15-33.962.html">
+              <td>06:15:33 27 Feb</td>
+              <td>06:15:33 27 Feb</td>
+              <td>06:15:33 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-06-15-33.942.html">
+              <td>06:15:33 27 Feb</td>
+              <td>06:15:33 27 Feb</td>
+              <td>06:15:33 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>52<br>(incl. 52 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-06-13-45.477.html">
+              <td>06:13:45 27 Feb</td>
+              <td>06:13:45 27 Feb</td>
+              <td>06:13:45 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-06-13-45.465.html">
+              <td>06:13:45 27 Feb</td>
+              <td>06:13:45 27 Feb</td>
+              <td>06:13:45 27 Feb</td>
+              <td>3 ms</td>
+              <td>0</td>
+              <td>3 ms</td>
+              <td>3 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>209<br>(incl. 209 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-06-07-55.505.html">
+              <td>06:07:55 27 Feb</td>
+              <td>06:07:55 27 Feb</td>
+              <td>06:07:55 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-06-07-55.493.html">
+              <td>06:07:55 27 Feb</td>
+              <td>06:07:55 27 Feb</td>
+              <td>06:07:55 27 Feb</td>
+              <td>3 ms</td>
+              <td>0</td>
+              <td>3 ms</td>
+              <td>3 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>154<br>(incl. 154 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-05-59-28.228.html">
+              <td>05:59:28 27 Feb</td>
+              <td>05:59:28 27 Feb</td>
+              <td>05:59:28 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-05-59-28.216.html">
+              <td>05:59:28 27 Feb</td>
+              <td>05:59:28 27 Feb</td>
+              <td>05:59:28 27 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>198<br>(incl. 198 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-05-57-02.830.html">
+              <td>05:57:02 27 Feb</td>
+              <td>05:57:02 27 Feb</td>
+              <td>05:57:02 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-05-57-02.819.html">
+              <td>05:57:02 27 Feb</td>
+              <td>05:57:02 27 Feb</td>
+              <td>05:57:02 27 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>86<br>(incl. 86 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-05-53-16.762.html">
+              <td>05:53:16 27 Feb</td>
+              <td>05:53:16 27 Feb</td>
+              <td>05:53:16 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-05-53-16.716.html">
+              <td>05:53:16 27 Feb</td>
+              <td>05:53:16 27 Feb</td>
+              <td>05:53:16 27 Feb</td>
+              <td>28 ms</td>
+              <td>0</td>
+              <td>28 ms</td>
+              <td>28 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>1464<br>(incl. 1464 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-05-47-45.105.html">
+              <td>05:47:45 27 Feb</td>
+              <td>05:47:45 27 Feb</td>
+              <td>05:47:45 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-05-47-45.096.html">
+              <td>05:47:45 27 Feb</td>
+              <td>05:47:45 27 Feb</td>
+              <td>05:47:45 27 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>68<br>(incl. 68 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-05-46-49.041.html">
+              <td>05:46:48 27 Feb</td>
+              <td>05:46:48 27 Feb</td>
+              <td>05:46:48 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-05-46-48.991.html">
+              <td>05:46:48 27 Feb</td>
+              <td>05:46:48 27 Feb</td>
+              <td>05:46:48 27 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>69<br>(incl. 69 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-05-46-00.669.html">
+              <td>05:46:00 27 Feb</td>
+              <td>05:46:00 27 Feb</td>
+              <td>05:46:00 27 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-27-05-46-00.657.html">
+              <td>05:46:00 27 Feb</td>
+              <td>05:46:00 27 Feb</td>
+              <td>05:46:00 27 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>74<br>(incl. 74 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-23-19-30.702.html">
+              <td>23:19:30 26 Feb</td>
+              <td>23:19:30 26 Feb</td>
+              <td>23:19:30 26 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-23-19-30.691.html">
+              <td>23:19:30 26 Feb</td>
+              <td>23:19:30 26 Feb</td>
+              <td>23:19:30 26 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>45<br>(incl. 45 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-23-18-20.180.html">
+              <td>23:18:20 26 Feb</td>
+              <td>23:18:20 26 Feb</td>
+              <td>23:18:20 26 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-23-18-20.169.html">
+              <td>23:18:20 26 Feb</td>
+              <td>23:18:20 26 Feb</td>
+              <td>23:18:20 26 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>66<br>(incl. 66 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-23-16-55.522.html">
+              <td>23:16:55 26 Feb</td>
+              <td>23:16:55 26 Feb</td>
+              <td>23:16:55 26 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-23-16-55.511.html">
+              <td>23:16:55 26 Feb</td>
+              <td>23:16:55 26 Feb</td>
+              <td>23:16:55 26 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>62<br>(incl. 62 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-23-16-08.623.html">
+              <td>23:16:08 26 Feb</td>
+              <td>23:16:08 26 Feb</td>
+              <td>23:16:08 26 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-23-16-08.604.html">
+              <td>23:16:08 26 Feb</td>
+              <td>23:16:08 26 Feb</td>
+              <td>23:16:08 26 Feb</td>
+              <td>5 ms</td>
+              <td>0</td>
+              <td>5 ms</td>
+              <td>5 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>229<br>(incl. 229 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-23-04-25.331.html">
+              <td>23:04:25 26 Feb</td>
+              <td>23:04:25 26 Feb</td>
+              <td>23:04:25 26 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-23-04-25.323.html">
+              <td>23:04:25 26 Feb</td>
+              <td>23:04:25 26 Feb</td>
+              <td>23:04:25 26 Feb</td>
+              <td>3 ms</td>
+              <td>0</td>
+              <td>3 ms</td>
+              <td>3 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>259<br>(incl. 259 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-49-56.032.html">
+              <td>22:49:56 26 Feb</td>
+              <td>22:49:56 26 Feb</td>
+              <td>22:49:56 26 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-49-56.022.html">
+              <td>22:49:56 26 Feb</td>
+              <td>22:49:56 26 Feb</td>
+              <td>22:49:56 26 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>152<br>(incl. 152 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-49-12.981.html">
+              <td>22:49:12 26 Feb</td>
+              <td>22:49:12 26 Feb</td>
+              <td>22:49:12 26 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-49-12.971.html">
+              <td>22:49:12 26 Feb</td>
+              <td>22:49:12 26 Feb</td>
+              <td>22:49:12 26 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>56<br>(incl. 56 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-47-45.158.html">
+              <td>22:47:45 26 Feb</td>
+              <td>22:47:45 26 Feb</td>
+              <td>22:47:45 26 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-47-45.150.html">
+              <td>22:47:45 26 Feb</td>
+              <td>22:47:45 26 Feb</td>
+              <td>22:47:45 26 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>168<br>(incl. 168 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-43-53.905.html">
+              <td>22:43:53 26 Feb</td>
+              <td>22:43:53 26 Feb</td>
+              <td>22:43:53 26 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-43-53.896.html">
+              <td>22:43:53 26 Feb</td>
+              <td>22:43:53 26 Feb</td>
+              <td>22:43:53 26 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>52<br>(incl. 52 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-41-18.338.html">
+              <td>22:41:18 26 Feb</td>
+              <td>22:41:18 26 Feb</td>
+              <td>22:41:18 26 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>23<br>(incl. 23 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-41-15.562.html">
+              <td>22:41:15 26 Feb</td>
+              <td>22:41:15 26 Feb</td>
+              <td>22:41:15 26 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-41-15.554.html">
+              <td>22:41:15 26 Feb</td>
+              <td>22:41:15 26 Feb</td>
+              <td>22:41:15 26 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>63<br>(incl. 63 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-40-47.825.html">
+              <td>22:40:47 26 Feb</td>
+              <td>22:40:47 26 Feb</td>
+              <td>22:40:47 26 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-40-47.817.html">
+              <td>22:40:47 26 Feb</td>
+              <td>22:40:47 26 Feb</td>
+              <td>22:40:47 26 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>43<br>(incl. 43 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-39-44.181.html">
+              <td>22:39:44 26 Feb</td>
+              <td>22:39:44 26 Feb</td>
+              <td>22:39:44 26 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>20<br>(incl. 20 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-39-40.780.html">
+              <td>22:39:40 26 Feb</td>
+              <td>22:39:40 26 Feb</td>
+              <td>22:39:40 26 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-39-40.775.html">
+              <td>22:39:40 26 Feb</td>
+              <td>22:39:40 26 Feb</td>
+              <td>22:39:40 26 Feb</td>
+              <td>4 ms</td>
+              <td>0</td>
+              <td>4 ms</td>
+              <td>4 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>379<br>(incl. 379 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-32-10.454.html">
+              <td>22:32:10 26 Feb</td>
+              <td>22:32:10 26 Feb</td>
+              <td>22:32:10 26 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>94<br>(incl. 94 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-30-49.880.html">
+              <td>22:30:49 26 Feb</td>
+              <td>22:30:49 26 Feb</td>
+              <td>22:30:49 26 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>106<br>(incl. 106 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-26-26.460.html">
+              <td>22:26:26 26 Feb</td>
+              <td>22:26:26 26 Feb</td>
+              <td>22:26:26 26 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>45<br>(incl. 45 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-25-28.833.html">
+              <td>22:25:28 26 Feb</td>
+              <td>22:25:28 26 Feb</td>
+              <td>22:25:28 26 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>94<br>(incl. 94 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-18-04.584.html">
+              <td>22:18:04 26 Feb</td>
+              <td>22:18:04 26 Feb</td>
+              <td>22:18:04 26 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-18-04.578.html">
+              <td>22:18:04 26 Feb</td>
+              <td>22:18:04 26 Feb</td>
+              <td>22:18:04 26 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>80<br>(incl. 80 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-17-28.273.html">
+              <td>22:17:28 26 Feb</td>
+              <td>22:17:28 26 Feb</td>
+              <td>22:17:28 26 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-17-28.268.html">
+              <td>22:17:28 26 Feb</td>
+              <td>22:17:28 26 Feb</td>
+              <td>22:17:28 26 Feb</td>
+              <td>3 ms</td>
+              <td>0</td>
+              <td>3 ms</td>
+              <td>3 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>280<br>(incl. 280 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-07-56.024.html">
+              <td>22:07:56 26 Feb</td>
+              <td>22:07:56 26 Feb</td>
+              <td>22:07:56 26 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-22-07-56.020.html">
+              <td>22:07:55 26 Feb</td>
+              <td>22:07:55 26 Feb</td>
+              <td>22:07:56 26 Feb</td>
+              <td>51 ms</td>
+              <td>0</td>
+              <td>51 ms</td>
+              <td>51 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>4844<br>(incl. 4844 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-14-33-49.334.html">
+              <td>14:33:49 26 Feb</td>
+              <td>14:33:49 26 Feb</td>
+              <td>14:33:49 26 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>46<br>(incl. 46 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-14-28-15.236.html">
+              <td>14:28:15 26 Feb</td>
+              <td>14:28:15 26 Feb</td>
+              <td>14:28:15 26 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>44<br>(incl. 44 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-14-27-35.413.html">
+              <td>14:27:35 26 Feb</td>
+              <td>14:27:35 26 Feb</td>
+              <td>14:27:35 26 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-14-27-35.408.html">
+              <td>14:27:35 26 Feb</td>
+              <td>14:27:35 26 Feb</td>
+              <td>14:27:35 26 Feb</td>
+              <td>25 ms</td>
+              <td>0</td>
+              <td>25 ms</td>
+              <td>25 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>86<br>(incl. 86 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-14-11-37.545.html">
+              <td>14:11:37 26 Feb</td>
+              <td>14:11:37 26 Feb</td>
+              <td>14:11:37 26 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-14-11-37.540.html">
+              <td>14:11:37 26 Feb</td>
+              <td>14:11:37 26 Feb</td>
+              <td>14:11:37 26 Feb</td>
+              <td>3 ms</td>
+              <td>0</td>
+              <td>3 ms</td>
+              <td>3 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>325<br>(incl. 325 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-13-39-44.741.html">
+              <td>13:39:44 26 Feb</td>
+              <td>13:39:44 26 Feb</td>
+              <td>13:39:44 26 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-13-39-44.736.html">
+              <td>13:39:44 26 Feb</td>
+              <td>13:39:44 26 Feb</td>
+              <td>13:39:44 26 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>86<br>(incl. 86 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-13-39-17.369.html">
+              <td>13:39:17 26 Feb</td>
+              <td>13:39:17 26 Feb</td>
+              <td>13:39:17 26 Feb</td>
+              <td>4 ms</td>
+              <td>0</td>
+              <td>4 ms</td>
+              <td>4 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>293<br>(incl. 293 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-13-35-54.740.html">
+              <td>13:35:54 26 Feb</td>
+              <td>13:35:54 26 Feb</td>
+              <td>13:35:54 26 Feb</td>
+              <td>3 ms</td>
+              <td>0</td>
+              <td>3 ms</td>
+              <td>3 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>7<br>(incl. 6 changed in VFS)</td>
+              <td>18</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2024-02-26-13-35-54.732.html">
+              <td>13:35:54 26 Feb</td>
+              <td class="not-applicable-data">Didn't start</td>
+              <td>13:35:54 26 Feb</td>
+              <td>254 ms</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>29150</td>
+              <td>0</td>
+              <td>1</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>18</td>
+              <td>full on project open</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-13-33-38.519.html">
+              <td>13:33:38 26 Feb</td>
+              <td>13:33:38 26 Feb</td>
+              <td>13:33:38 26 Feb</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-13-33-38.514.html">
+              <td>13:33:38 26 Feb</td>
+              <td>13:33:38 26 Feb</td>
+              <td>13:33:38 26 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>114<br>(incl. 114 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-13-31-20.486.html">
+              <td>13:31:20 26 Feb</td>
+              <td>13:31:20 26 Feb</td>
+              <td>13:31:20 26 Feb</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>2 ms</td>
+              <td>2 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>8<br>(incl. 6 changed in VFS)</td>
+              <td>12</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-02-26-13-31-20.337.html">
+              <td>13:31:20 26 Feb</td>
+              <td>13:31:20 26 Feb</td>
+              <td>13:31:20 26 Feb</td>
+              <td>1 ms</td>
+              <td>0</td>
+              <td>1 ms</td>
+              <td>1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>35<br>(incl. 35 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2024-02-26-13-31-20.479.html">
+              <td>13:31:20 26 Feb</td>
+              <td class="not-applicable-data">Didn't start</td>
+              <td>13:31:20 26 Feb</td>
+              <td>366 ms</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>29142</td>
+              <td>0</td>
+              <td>2</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>12</td>
+              <td>full on project open</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <table class="table-with-margin activity-table">
+          <thead>
+            <tr>
+              <th colspan="5">Scanning to push properties of changed files</th>
+            </tr>
+            <tr>
+              <th>Time</th>
+              <th>Reason</th>
+              <th>Full duration</th>
+              <th>Is cancelled</th>
+              <th>Number</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>09:25:31 27 Feb</td>
+              <td>Push on VFS changes</td>
+              <td>&lt; 1 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>09:23:43 27 Feb</td>
+              <td>Push on VFS changes</td>
+              <td>1 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>09:22:56 27 Feb</td>
+              <td>Push on VFS changes</td>
+              <td>1 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>08:29:33 27 Feb</td>
+              <td>Push on VFS changes</td>
+              <td>&lt; 1 ms</td>
+              <td>fully finished</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>08:27:53 27 Feb</td>
+              <td>Push on VFS changes</td>
+              <td>1 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>08:05:53 27 Feb</td>
+              <td>Push on VFS changes</td>
+              <td>12 ms</td>
+              <td>fully finished</td>
+              <td>47</td>
+            </tr>
+            <tr>
+              <td>06:17:50 27 Feb</td>
+              <td>Push on VFS changes</td>
+              <td>2 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>06:17:01 27 Feb</td>
+              <td>Push on VFS changes</td>
+              <td>6 ms</td>
+              <td>fully finished</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <td>22:07:55 26 Feb</td>
+              <td>Push on VFS changes</td>
+              <td>3 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>14:27:35 26 Feb</td>
+              <td>Push on VFS changes</td>
+              <td>&lt; 1 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>14:11:37 26 Feb</td>
+              <td>Push on VFS changes</td>
+              <td>1 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>13:39:44 26 Feb</td>
+              <td>Push on VFS changes</td>
+              <td>1 ms</td>
+              <td>fully finished</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>13:31:20 26 Feb</td>
+              <td>Push on VFS changes</td>
+              <td>11 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>13:31:20 26 Feb</td>
+              <td>Push on VFS changes</td>
+              <td>&lt; 1 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

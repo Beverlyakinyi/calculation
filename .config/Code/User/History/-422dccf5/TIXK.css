@@ -1,0 +1,16 @@
+#container
+
+        th,td, table{
+            border:2px solid;border-color: black ;
+            column-gap :2px;
+            border-bottom-left-radius: 1px;
+            border-collapse:collapse;
+            padding: 18px;
+
+        }
+        
+            #tables{font-family:Arial;
+        
+        }
+        
+    

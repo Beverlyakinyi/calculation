@@ -1,0 +1,55 @@
+<application>
+  <component name="NotRoamableUiSettings">
+    <option name="presentationModeIdeScale" value="1.75" />
+    <option name="overrideLafFontsWasMigrated" value="true" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "CWM_LOGGING_VERSION": "1",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "8",
+    "NewKotlinWizard.buildSystem.type": "Jps",
+    "NewKotlinWizard.structure.groupId": "me.student",
+    "NextRunPlatformUpdateBuild": "IC-232.10300.40",
+    "NextRunPlatformUpdateVersion": "2023.2.6",
+    "NonModalCommitCustomization.IsApplied": "true",
+    "appcds.runOnSecondStart": "IC-232.9559.62-b99458c9c58f32620c1e0fb9aa1821050c6c37991a145cc73563d8351a7adef7",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "bundled.plugins.list.saved.version": "IC-232.9559.62",
+    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "IntelliJ",
+    "com.intellij.ide.wizard.NewProjectWizardLanguageStep.selectedStep": "Kotlin",
+    "defaultJdkConfigured": "true",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "232.9559.62",
+    "file.gist.reindex.count": "1598",
+    "fileTypeChangedCounter": "1",
+    "fontSizeToResetConsole": "13.0",
+    "fontSizeToResetEditor": "13.0",
+    "gotit.previous.run": "IC-232.9559.62",
+    "ide.memory.adjusted": "true",
+    "input.method.disabler.muted": "true",
+    "installed.kotlin.plugin.version": "232-1.9.0-IJ9559.62",
+    "jdk.selected.JAVA_MODULE": "18",
+    "kotlin.lastUpdateCheck": "1708943270145",
+    "migrate.android.sdk.path.to.roamable.storage": "false",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "org.jetbrains.kotlin.tools.projectWizard.KotlinNewProjectWizard$Step.selectedStep": "IntelliJ",
+    "previousColorScheme": "_@user_Dark",
+    "project.wizard.group": "NPW.simple-project",
+    "registry.to.advanced.settings.migration.build": "IC-232.9559.62",
+    "tasks.pass.word.conversion.enforced": "true"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/student/Assignment",
+      "/home/student"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector",
+      "com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+</application>

@@ -1,0 +1,1 @@
+{"sample":"hello","anArray":[{"thisCode":0},{"thatCode":1},{"anotherCode":2}]}

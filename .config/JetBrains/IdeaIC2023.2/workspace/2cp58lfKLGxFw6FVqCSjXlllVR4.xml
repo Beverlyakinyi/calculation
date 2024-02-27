@@ -1,0 +1,132 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="students" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/Main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="Kotlin">
+      <summary usageCount="5" lastUsed="1708943664865" />
+    </fileType>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/main/kotlin/Main.kt" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="kotlin">
+      <summary usageCount="5" lastUsage="1708943664865" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="students" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/student/IdeaProjects/students}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="students" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/student/IdeaProjects/students}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/student/IdeaProjects/students/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Kotlin.MainKt" />
+    </history>
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Run" order="4" show_stripe_button="false" weight="0.31386515" />
+      <window_info anchor="bottom" id="Services" order="5" />
+      <window_info anchor="bottom" id="Build" order="6" weight="0.3305" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <unified_weights bottom="0.31386515" left="0.25" />
+    </layoutV2>
+    <recentWindows>
+      <value>Project</value>
+      <value>Run</value>
+      <value>Build</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="778" y="272" width="424" height="570" key="FileChooserDialogImpl" timestamp="1708943452695">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="778" y="272" width="424" height="570" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1708943452695" />
+    <state width="1768" height="288" key="GridCell.Tab.0.bottom" timestamp="1708943262132">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1768" height="288" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1708943262132" />
+    <state width="1768" height="288" key="GridCell.Tab.0.center" timestamp="1708943262132">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1768" height="288" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1708943262132" />
+    <state width="1768" height="288" key="GridCell.Tab.0.left" timestamp="1708943262132">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1768" height="288" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1708943262132" />
+    <state width="1768" height="288" key="GridCell.Tab.0.right" timestamp="1708943262132">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1768" height="288" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1708943262132" />
+    <state x="595" y="253" key="new project wizard" timestamp="1708943479742">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="595" y="253" key="new project wizard/70.27.1850.1053@70.27.1850.1053" timestamp="1708943479742" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

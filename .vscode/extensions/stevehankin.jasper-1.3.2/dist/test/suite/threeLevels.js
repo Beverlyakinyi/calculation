@@ -1,0 +1,1 @@
+{"sample":"hello","level2":{"description":"nested attrib","level3":{"targetAttrib":"hoverOnThis"}}}

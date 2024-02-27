@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="tasks">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.config/JetBrains/IdeaIC2023.2/tasks/student.tasks.zip!/" />
+      <root url="jar://$PROJECT_DIR$/.config/JetBrains/IdeaIC2023.2/tasks/Student_Records.tasks.zip!/" />
+      <root url="jar://$PROJECT_DIR$/.config/JetBrains/IdeaIC2023.2/tasks/Student_Records.contexts.zip!/" />
+      <root url="jar://$PROJECT_DIR$/.config/JetBrains/IdeaIC2023.2/tasks/student.contexts.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

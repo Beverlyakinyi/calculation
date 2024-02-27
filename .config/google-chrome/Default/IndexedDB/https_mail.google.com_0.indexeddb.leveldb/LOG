@@ -1,0 +1,21 @@
+2024/02/26-21:19:13.427 aa3b Reusing MANIFEST /home/student/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/02/26-21:19:13.427 aa3b Recovering log #7
+2024/02/26-21:19:13.429 aa3b Reusing old log /home/student/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000007.log 
+2024/02/26-21:19:14.781 aa3b Compacting 1@1 + 1@2 files
+2024/02/26-21:19:14.794 aa3b Generated table #10@1: 183 keys, 485096 bytes
+2024/02/26-21:19:14.794 aa3b Compacted 1@1 + 1@2 files => 485096 bytes
+2024/02/26-21:19:14.796 aa3b compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/02/26-21:19:14.797 aa3b Delete type=2 #5
+2024/02/26-21:19:14.797 aa3b Delete type=2 #8
+2024/02/26-22:49:49.471 aa3c Level-0 table #12: started
+2024/02/26-22:49:49.490 aa3c Level-0 table #12: 2770100 bytes OK
+2024/02/26-22:49:49.494 aa3c Delete type=0 #7
+2024/02/27-07:37:22.163 aa3b Compacting 1@1 + 1@2 files
+2024/02/27-07:37:22.173 aa3b Generated table #13@1: 121 keys, 248992 bytes
+2024/02/27-07:37:22.173 aa3b Compacted 1@1 + 1@2 files => 248992 bytes
+2024/02/27-07:37:22.175 aa3b compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/02/27-07:37:22.175 aa3b Delete type=2 #12
+2024/02/27-07:37:22.175 aa3b Delete type=2 #10
+2024/02/27-07:37:33.109 aa3c Level-0 table #15: started
+2024/02/27-07:37:33.130 aa3c Level-0 table #15: 2743173 bytes OK
+2024/02/27-07:37:33.134 aa3c Delete type=0 #11

@@ -1,0 +1,171 @@
+{
+  "appInfo" : {
+    "build" : "232.9559.62",
+    "buildDate" : "2023-08-23T05:01:12.211Z[UTC]",
+    "productCode" : "IC",
+    "generated" : "2024-02-26T10:27:42.915301994Z",
+    "os" : "Linux 6.2.0-32-generic",
+    "runtime" : "JetBrains s.r.o. 17.0.8 17.0.8+7-b1000.8"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 2147483648,
+    "numberOfProcessors" : 8,
+    "maxNumberOfIndexingThreads" : 7,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "DumbIndexing",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "Salary",
+    "times" : {
+      "scanningIds" : [ 5 ],
+      "contentLoadingVisibleTime" : 84390,
+      "retrievingChangedDuringIndexingFilesTime" : 16291,
+      "isAppliedAllValuesSeparately" : true,
+      "separateApplyingIndexesVisibleTime" : 1695,
+      "updatingStart" : "2024-02-26T10:27:42.91239238Z",
+      "updatingEnd" : "2024-02-26T10:27:42.915022937Z",
+      "totalWallTimeWithPauses" : 2631138,
+      "wallTimeOnPause" : 0,
+      "wasInterrupted" : false,
+      "dumbModeStart" : "2024-02-26T10:27:42.91239238Z",
+      "dumbWallTimeWithPauses" : 2631138,
+      "dumbWallTimeWithoutPauses" : 2631138,
+      "totalWallTimeWithoutPauses" : 2631138
+    },
+    "fileCount" : {
+      "numberOfChangedDuringIndexingFiles" : 0,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringIndexingStage" : 0,
+      "numberOfFilesIndexedWithLoadingContent" : 2
+    },
+    "totalStatsPerFileType" : [ {
+      "fileType" : "Kotlin",
+      "partOfTotalProcessingTime" : {
+        "part" : 1619007,
+        "total" : 3192618
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 84399,
+        "total" : 156565
+      },
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : 293,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 293,
+        "totalCpuTime" : 1619007
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Module 'Salary' (all roots)",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 293,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 1619007,
+          "total" : 1619007
+        }
+      } ]
+    }, {
+      "fileType" : "GitIgnore file",
+      "partOfTotalProcessingTime" : {
+        "part" : 1573611,
+        "total" : 3192618
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 72166,
+        "total" : 156565
+      },
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : 344,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 344,
+        "totalCpuTime" : 1573611
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Module 'Salary' (all roots)",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 344,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 1573611,
+          "total" : 1573611
+        }
+      } ]
+    } ],
+    "totalStatsPerBaseLanguage" : [ {
+      "language" : "kotlin",
+      "partOfTotalProcessingTime" : {
+        "part" : 1619007,
+        "total" : 3192618
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 240964,
+        "total" : 156565
+      },
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : 293,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 293,
+        "totalCpuTime" : 1619007
+      }
+    }, {
+      "language" : "GitIgnore",
+      "partOfTotalProcessingTime" : {
+        "part" : 1573611,
+        "total" : 3192618
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 228731,
+        "total" : 156565
+      },
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : 344,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 344,
+        "totalCpuTime" : 1573611
+      }
+    }, {
+      "language" : "IgnoreLang",
+      "partOfTotalProcessingTime" : {
+        "part" : 1573611,
+        "total" : 3192618
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 228731,
+        "total" : 156565
+      },
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : 344,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 344,
+        "totalCpuTime" : 1573611
+      }
+    } ],
+    "totalStatsPerIndexer" : [ ],
+    "statisticsOfChangedDuringIndexingFiles" : {
+      "numberOfFiles" : 0,
+      "retrievingTime" : 16291
+    },
+    "fileProviderStatistics" : [ {
+      "providerName" : "Module 'Salary' (all roots)",
+      "totalNumberOfIndexedFiles" : 2,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingVisibleTime" : 1720869,
+      "contentLoadingVisibleTime" : 84390,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "isAppliedAllValuesSeparately" : true,
+      "separateApplyingIndexesVisibleTime" : 1695
+    }, {
+      "providerName" : "Refreshed files",
+      "totalNumberOfIndexedFiles" : 0,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingVisibleTime" : 0,
+      "contentLoadingVisibleTime" : 0,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "isAppliedAllValuesSeparately" : true,
+      "separateApplyingIndexesVisibleTime" : 0
+    } ],
+    "visibleTimeToAllThreadTimeRatio" : 0.0
+  }
+}

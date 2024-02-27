@@ -1,0 +1,24 @@
+2024/02/26-13:41:22.502 aa62 Reusing MANIFEST /home/student/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2024/02/26-13:41:22.502 aa62 Recovering log #58
+2024/02/26-13:41:22.503 aa62 Reusing old log /home/student/.config/google-chrome/Default/Sync Data/LevelDB/000058.log 
+2024/02/26-21:10:13.252 aa3f Level-0 table #62: started
+2024/02/26-21:10:13.258 aa3f Level-0 table #62: 94197 bytes OK
+2024/02/26-21:10:13.265 aa3f Delete type=0 #58
+2024/02/26-22:38:07.510 aa3f Level-0 table #64: started
+2024/02/26-22:38:07.516 aa3f Level-0 table #64: 92075 bytes OK
+2024/02/26-22:38:07.520 aa3f Delete type=0 #61
+2024/02/26-22:38:07.520 aa3b Compacting 4@0 + 1@1 files
+2024/02/26-22:38:07.526 aa3b Generated table #65@0: 104 keys, 19126 bytes
+2024/02/26-22:38:07.526 aa3b Compacted 4@0 + 1@1 files => 19126 bytes
+2024/02/26-22:38:07.536 aa3b compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/02/26-22:38:07.536 aa3b Delete type=2 #62
+2024/02/26-22:38:07.536 aa3b Delete type=2 #59
+2024/02/26-22:38:07.536 aa3b Delete type=2 #64
+2024/02/26-22:38:07.536 aa3b Delete type=2 #54
+2024/02/26-22:38:07.536 aa3b Delete type=2 #56
+2024/02/27-08:03:32.916 aa3f Level-0 table #67: started
+2024/02/27-08:03:32.921 aa3f Level-0 table #67: 88402 bytes OK
+2024/02/27-08:03:32.924 aa3f Delete type=0 #63
+2024/02/27-08:53:33.804 aa3f Level-0 table #69: started
+2024/02/27-08:53:33.810 aa3f Level-0 table #69: 91146 bytes OK
+2024/02/27-08:53:33.817 aa3f Delete type=0 #66

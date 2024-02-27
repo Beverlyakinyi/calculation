@@ -1,0 +1,12 @@
+2024-02-24 17:29:32.977 [info] update#setState idle
+2024-02-24 17:30:01.383 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2024-02-24 17:30:01.384 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 5216]: crashed with code 15 and reason 'killed'
+2024-02-24 17:30:02.978 [info] update#setState checking for updates
+2024-02-24 17:30:02.985 [info] update#setState available for download
+2024-02-24 17:30:06.379 [info] Extension host with pid 5236 exited with code: 0, signal: unknown.
+2024-02-24 20:17:37.457 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 5328]: crashed with code 15 and reason 'killed'
+2024-02-24 20:17:42.451 [info] Extension host with pid 5339 exited with code: 0, signal: unknown.
+2024-02-24 20:17:43.635 [error] Blocked vscode-file request vscode-file://vscode-app/usr/share/code/resources/app/out/vs/base/worker/workerMain.js#editorWorkerService
+2024-02-24 20:17:43.658 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2024-02-24 20:17:43.659 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 9644]: crashed with code 15 and reason 'killed'
+2024-02-24 20:17:48.629 [info] Extension host with pid 9654 exited with code: 0, signal: unknown.

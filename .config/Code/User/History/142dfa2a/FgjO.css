@@ -1,0 +1,21 @@
+#container
+        button{
+            padding: 12px 240px;
+            border: none;
+            color:white;
+            background-color: black;
+        }
+
+        #form {border: solid 1px;
+               padding: 24px;
+               margin: o auto;
+               width: 50%;}
+        .input{padding: 12px 16px;
+               width: 80;
+               border-radius: 5px;
+               border: solid 1px;
+               
+               
+
+        }
+    

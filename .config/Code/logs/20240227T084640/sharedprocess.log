@@ -1,0 +1,21 @@
+2024-02-27 08:50:21.877 [info] Getting Manifest... ms-python.python
+2024-02-27 08:50:21.882 [info] Installing extension: ms-python.python
+2024-02-27 08:50:23.108 [info] Getting Manifest... ms-python.vscode-pylance
+2024-02-27 08:50:23.121 [info] Getting Manifest... ms-python.debugpy
+2024-02-27 08:50:23.203 [info] Installing extension: ms-python.vscode-pylance ms-python.python
+2024-02-27 08:50:23.204 [info] Installing extension: ms-python.debugpy ms-python.python
+2024-02-27 08:50:28.001 [info] Extension signature is verified: ms-python.debugpy
+2024-02-27 08:50:28.029 [info] Extension signature is verified: ms-python.python
+2024-02-27 08:50:28.763 [info] Extracted extension to file:///home/student/.vscode/extensions/ms-python.debugpy-2024.0.0-linux-x64: ms-python.debugpy
+2024-02-27 08:50:28.774 [info] Renamed to /home/student/.vscode/extensions/ms-python.debugpy-2024.0.0-linux-x64
+2024-02-27 08:50:28.777 [info] Extracting extension completed. ms-python.debugpy
+2024-02-27 08:50:29.767 [info] Extracted extension to file:///home/student/.vscode/extensions/ms-python.python-2024.0.1: ms-python.python
+2024-02-27 08:50:29.779 [info] Renamed to /home/student/.vscode/extensions/ms-python.python-2024.0.1
+2024-02-27 08:50:29.782 [info] Extracting extension completed. ms-python.python
+2024-02-27 08:50:32.781 [info] Extension signature is verified: ms-python.vscode-pylance
+2024-02-27 08:50:34.946 [info] Extracted extension to file:///home/student/.vscode/extensions/ms-python.vscode-pylance-2024.2.2: ms-python.vscode-pylance
+2024-02-27 08:50:34.958 [info] Renamed to /home/student/.vscode/extensions/ms-python.vscode-pylance-2024.2.2
+2024-02-27 08:50:34.961 [info] Extracting extension completed. ms-python.vscode-pylance
+2024-02-27 08:50:34.972 [info] Extension installed successfully: ms-python.debugpy
+2024-02-27 08:50:34.972 [info] Extension installed successfully: ms-python.python
+2024-02-27 08:50:34.972 [info] Extension installed successfully: ms-python.vscode-pylance

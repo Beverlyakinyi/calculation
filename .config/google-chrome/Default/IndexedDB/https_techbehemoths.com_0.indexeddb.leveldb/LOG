@@ -1,0 +1,7 @@
+2024/02/24-21:41:14.212 427d Creating DB /home/student/.config/google-chrome/Default/IndexedDB/https_techbehemoths.com_0.indexeddb.leveldb since it was missing.
+2024/02/24-21:41:14.219 427d Reusing MANIFEST /home/student/.config/google-chrome/Default/IndexedDB/https_techbehemoths.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/02/24-21:41:14.263 4281 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/02/24-21:42:25.231 427d Level-0 table #5: started
+2024/02/24-21:42:25.234 427d Level-0 table #5: 2422 bytes OK
+2024/02/24-21:42:25.237 427d Delete type=0 #3
+2024/02/24-21:42:25.237 427d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="org.gnome.Evince.desktop" score="133" last-seen="1708928262"/>
+    <application id="intellij-idea-community.desktop" score="4834" last-seen="1709015132"/>
+    <application id="org.gnome.Nautilus.desktop" score="4" last-seen="1708795072"/>
+    <application id="org.gnome.eog.desktop" score="17" last-seen="1708928841"/>
+    <application id="gnome-initial-setup.desktop" score="4" last-seen="1708784505"/>
+    <application id="google-chrome.desktop" score="22212" last-seen="1709019162"/>
+    <application id="org.gnome.Terminal.desktop" score="702" last-seen="1709012676"/>
+    <application id="code.desktop" score="733" last-seen="1709020417"/>
+    <application id="xdg-desktop-portal-gnome.desktop" score="0" last-seen="1708927295"/>
+    <application id="gnome-control-center.desktop" score="4" last-seen="1708955456"/>
+    <application id="gnome-wifi-panel.desktop" score="0" last-seen="0"/>
+    <application id="org.gnome.FileRoller.desktop" score="45" last-seen="1708928478"/>
+    <application id="com.slack.Slack.desktop" score="4719" last-seen="1709020517"/>
+  </context>
+</application-state>

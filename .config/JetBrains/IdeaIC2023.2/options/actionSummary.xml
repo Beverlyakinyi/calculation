@@ -1,0 +1,82 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Undo">
+      <i c="54" l="1709008198638" />
+    </e>
+    <e n="CloseProject">
+      <i c="1" l="1708943687968" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="1714" l="1709008316481" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="2" l="1709008264316" />
+    </e>
+    <e n="EditorDelete">
+      <i c="6" l="1709006044525" />
+    </e>
+    <e n="EditorEnter">
+      <i c="50" l="1709008262013" />
+    </e>
+    <e n="EditorLeft">
+      <i c="3" l="1709005966018" />
+    </e>
+    <e n="EditorRight">
+      <i c="34" l="1709008261704" />
+    </e>
+    <e n="FileChooser.GotoDesktop">
+      <i c="1" l="1708943298901" />
+    </e>
+    <e n="ImportProject">
+      <i c="1" l="1708943439322" />
+    </e>
+    <e n="NewProject">
+      <i c="5" l="1708943470263" />
+    </e>
+    <e n="OpenFile">
+      <i c="5" l="1708943715265" />
+    </e>
+    <e n="Run">
+      <i c="3" l="1709006060028" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="1" l="1709002505421" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="4" l="1709002821518" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="1" l="1708795202636" />
+    </e>
+    <e n="com.intellij.execution.lineMarker.LineMarkerActionWrapper">
+      <i c="20" l="1709008329376" />
+    </e>
+    <e n="com.intellij.ide.ReopenProjectAction">
+      <i c="7" l="1708943754301" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1708795460817" />
+    </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$TrafficLightAction">
+      <i c="3" l="1709002582214" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="1" l="1708795280962" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="5" l="1709002773218" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="21" l="1708943749332" />
+    </e>
+    <e n="com.intellij.toolWindow.ShowMoreToolWindowsAction">
+      <i c="2" l="1708975528557" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="3" l="1709002784857" />
+    </e>
+    <e n="com.intellij.ui.dsl.builder.components.SegmentedButtonAction">
+      <i c="1" l="1708795228239" />
+    </e>
+  </component>
+</application>

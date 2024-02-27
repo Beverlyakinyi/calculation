@@ -1,0 +1,1 @@
+const f = () => { const x = { sample: 1 }}

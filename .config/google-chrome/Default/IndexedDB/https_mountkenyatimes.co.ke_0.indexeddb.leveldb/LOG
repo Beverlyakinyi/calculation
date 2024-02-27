@@ -1,0 +1,6 @@
+2024/02/26-16:31:48.005 aa3b Creating DB /home/student/.config/google-chrome/Default/IndexedDB/https_mountkenyatimes.co.ke_0.indexeddb.leveldb since it was missing.
+2024/02/26-16:31:48.013 aa3b Reusing MANIFEST /home/student/.config/google-chrome/Default/IndexedDB/https_mountkenyatimes.co.ke_0.indexeddb.leveldb/MANIFEST-000001
+2024/02/26-16:31:50.710 aa3c Level-0 table #5: started
+2024/02/26-16:31:50.713 aa3c Level-0 table #5: 2252 bytes OK
+2024/02/26-16:31:50.716 aa3c Delete type=0 #3
+2024/02/26-16:31:50.716 aa3c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,32 @@
+2024/02/24-19:55:42.968 14 Creating DB /home/student/.var/app/com.slack.Slack/config/Slack/Local Storage/leveldb since it was missing.
+2024/02/24-19:55:42.975 14 Reusing MANIFEST /home/student/.var/app/com.slack.Slack/config/Slack/Local Storage/leveldb/MANIFEST-000001
+2024/02/25-11:53:07.700 15 Level-0 table #5: started
+2024/02/25-11:53:07.705 15 Level-0 table #5: 16719 bytes OK
+2024/02/25-11:53:07.708 15 Delete type=0 #3
+2024/02/26-06:45:43.540 15 Level-0 table #7: started
+2024/02/26-06:45:43.544 15 Level-0 table #7: 11698 bytes OK
+2024/02/26-06:45:43.547 15 Delete type=0 #4
+2024/02/26-11:58:09.862 15 Level-0 table #9: started
+2024/02/26-11:58:09.864 15 Level-0 table #9: 13246 bytes OK
+2024/02/26-11:58:09.868 15 Delete type=0 #6
+2024/02/26-13:43:34.225 15 Level-0 table #11: started
+2024/02/26-13:43:34.228 15 Level-0 table #11: 15645 bytes OK
+2024/02/26-13:43:34.231 15 Delete type=0 #8
+2024/02/26-21:25:42.608 15 Level-0 table #13: started
+2024/02/26-21:25:42.612 15 Level-0 table #13: 12295 bytes OK
+2024/02/26-21:25:42.615 15 Delete type=0 #10
+2024/02/27-08:25:20.253 15 Level-0 table #15: started
+2024/02/27-08:25:20.256 15 Level-0 table #15: 12523 bytes OK
+2024/02/27-08:25:20.260 15 Delete type=0 #12
+2024/02/27-08:25:20.260 15 Compacting 4@0 + 1@1 files
+2024/02/27-08:25:20.266 15 Generated table #16@0: 8 keys, 3499 bytes
+2024/02/27-08:25:20.266 15 Compacted 4@0 + 1@1 files => 3499 bytes
+2024/02/27-08:25:20.269 15 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/02/27-08:25:20.269 15 Delete type=2 #7
+2024/02/27-08:25:20.269 15 Delete type=2 #11
+2024/02/27-08:25:20.269 15 Delete type=2 #15
+2024/02/27-08:25:20.269 15 Delete type=2 #13
+2024/02/27-08:25:20.269 15 Delete type=2 #9
+2024/02/27-09:02:56.216 15 Level-0 table #18: started
+2024/02/27-09:02:56.220 15 Level-0 table #18: 17796 bytes OK
+2024/02/27-09:02:56.223 15 Delete type=0 #14

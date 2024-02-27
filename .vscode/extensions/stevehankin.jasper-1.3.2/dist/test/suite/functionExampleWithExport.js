@@ -1,0 +1,1 @@
+export const f = () => { const abc = { test: 123 }}

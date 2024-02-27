@@ -1,0 +1,22 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$" value="true" />
+        <entry key="$USER_HOME$/Assignment" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/Salary" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/Student Records" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/salary" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/student records" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/students" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="/home" />
+      </list>
+    </option>
+  </component>
+</application>

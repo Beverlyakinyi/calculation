@@ -1,0 +1,26 @@
+2024/02/26-07:11:57.263 5851 Creating DB /home/student/.config/google-chrome/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb since it was missing.
+2024/02/26-07:11:57.270 5851 Reusing MANIFEST /home/student/.config/google-chrome/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/02/26-07:50:05.963 5851 Level-0 table #5: started
+2024/02/26-07:50:05.984 5851 Level-0 table #5: 1810414 bytes OK
+2024/02/26-07:50:05.989 5851 Delete type=0 #3
+2024/02/26-08:38:09.893 5852 Level-0 table #7: started
+2024/02/26-08:38:09.907 5852 Level-0 table #7: 1810805 bytes OK
+2024/02/26-08:38:09.911 5852 Delete type=0 #4
+2024/02/26-08:38:24.894 5851 Compacting 1@1 + 1@2 files
+2024/02/26-08:38:24.904 5851 Generated table #8@1: 180 keys, 11690 bytes
+2024/02/26-08:38:24.904 5851 Compacted 1@1 + 1@2 files => 11690 bytes
+2024/02/26-08:38:24.907 5851 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/02/26-08:38:24.907 5851 Delete type=2 #5
+2024/02/26-08:38:24.907 5851 Delete type=2 #7
+2024/02/26-08:43:22.582 5852 Level-0 table #10: started
+2024/02/26-08:43:22.587 5852 Level-0 table #10: 95886 bytes OK
+2024/02/26-08:43:22.590 5852 Delete type=0 #6
+2024/02/26-08:43:22.590 5852 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2024/02/26-08:43:22.590 5852 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x02\x02\x01\x12\x00u\x00s\x00e\x00d\x00_\x00s\x00t\x00o\x00r\x00a\x00g\x00e\x00_\x00b\x00y\x00t\x00e\x00s' @ 36818 : 1
+2024/02/26-08:43:22.590 5852 Compacting 1@1 + 1@2 files
+2024/02/26-08:43:22.594 5852 Generated table #11@1: 176 keys, 9765 bytes
+2024/02/26-08:43:22.594 5852 Compacted 1@1 + 1@2 files => 9765 bytes
+2024/02/26-08:43:22.597 5852 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/02/26-08:43:22.597 5852 Delete type=2 #8
+2024/02/26-08:43:22.597 5852 Delete type=2 #10
+2024/02/26-08:43:22.598 5852 Manual compaction at level-1 from '\x00\x03\x02\x02\x01\x12\x00u\x00s\x00e\x00d\x00_\x00s\x00t\x00o\x00r\x00a\x00g\x00e\x00_\x00b\x00y\x00t\x00e\x00s' @ 36818 : 1 .. (end); will stop at (end)
